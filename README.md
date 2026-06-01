@@ -1,5 +1,8 @@
 # Computer Vision Algorithms in Python
 
+[![Python CI](https://github.com/mahdidou711/computer-vision-algorithms-python/actions/workflows/ci.yml/badge.svg)](https://github.com/mahdidou711/computer-vision-algorithms-python/actions/workflows/ci.yml)
+
+
 This repository contains cleaned Python implementations of classical computer vision algorithms.
 
 ## Goals
