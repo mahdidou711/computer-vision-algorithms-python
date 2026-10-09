@@ -7,3 +7,6 @@ venv/
 *.7z
 .vscode/
 .DS_Store
+
+# Default generated output directory
+/figures/

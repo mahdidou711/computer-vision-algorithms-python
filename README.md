@@ -21,7 +21,7 @@ The project is intended to show:
 
 - src/ contains the Python source files
 - results/figures/ contains generated visual results
-- examples/ is reserved for small reproducible input examples
+- Original input images are not included; supply your own image files
 
 ## Algorithms and files
 
@@ -64,9 +64,13 @@ pip install -r requirements.txt
 
 Run one of the scripts from the repository root:
 
-python src/exo3_harris.py
+python src/exo3_harris.py /path/to/image.png --outdir figures
 
-Some scripts may require image paths or small adjustments depending on the chosen input images.
+Provide image paths for the scripts you run. The matching, homography, and panorama scripts accept `--im1` and `--im2`; use these options instead of relying on machine-specific default paths.
+
+Generated outputs normally go to `figures/`, while `results/figures/` contains committed reference results.
+
+GitHub Actions currently checks Python syntax only; it does not run end-to-end image-processing tests.
 
 ## Notes
 
